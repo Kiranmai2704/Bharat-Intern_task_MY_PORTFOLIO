@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav li {
+      display: inline;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    section {
+      padding: 50px;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    .project {
+      margin-bottom: 30px;
+    }
+
+    .project img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>Hello, I'm R KIRANMAI. I'm a student in LBRCE, Mylavaram studying BTECH|CSE.<br></br>
+      I do have not much prior experience and knowledge as I am a learner. <br></br>
+      I have 100% consistency, hard-working nature, and much prior enthusiasm to learn new things. So, I
+hereby work to the mark I can.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Project 1</h3>
+      <img src="p1.png" alt="Project 1">
+      <p>This is my first project. It showcases a python code using GUI.</p>
+      <a href="#">https://github.com/Kiranmai2704/CodeClause_project_Calculator</a>
+    </div>
+
+    <div class="project">
+      <h3>Project 2</h3>
+      <img src="p2.png" alt="Project 2">
+      <p>This is my second project. It focuses on responsive python and GUI.</p>
+      <a href="#">https://github.com/Kiranmai2704/CodeClause_project_To-Do-App</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>You can reach me at kiranmai2704@gmail.com</p>
+  </section>
+</body>
+</html>
